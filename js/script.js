@@ -4,3 +4,6 @@
 //con append aggiungo la classe del background alla generica del box
 //torno al background del generico con toggle
 
+const button1 = document.querySelector('.level_1');
+const boxContainer = document.querySelector('.box_container');
+
