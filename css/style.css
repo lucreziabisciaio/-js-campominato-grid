@@ -15,7 +15,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
 
-    width: 550px;
     margin: 30px auto;
 }
 
@@ -41,6 +40,18 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.width_1 {
+    width: 550px;
+}
+
+.width_2 {
+    width: 500px;
+}
+
+.width_3 {
+    width: 400px;
 }
 
 .blue {

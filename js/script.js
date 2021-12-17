@@ -26,6 +26,10 @@ button1.addEventListener('click', function () {
 
     for (let i = 1; i < 100; i++) {
         createBox(boxContainer);
+        boxContainer.classList.add('width_1');
+
+        boxContainer.classList.remove('width_2');
+        boxContainer.classList.remove('width_3');
     }
 })
 
@@ -34,6 +38,10 @@ button2.addEventListener('click', function () {
 
     for (let i = 1; i < 81; i++) {
         createBox(boxContainer);
+        boxContainer.classList.add('width_2');
+
+        boxContainer.classList.remove('width_1');
+        boxContainer.classList.remove('width_3');
     }
 })
 
@@ -42,5 +50,9 @@ button3.addEventListener('click', function () {
 
     for (let i = 1; i < 49; i++) {
         createBox(boxContainer);
+        boxContainer.classList.add('width_3');
+
+        boxContainer.classList.remove('width_1');
+        boxContainer.classList.remove('width_2');
     }
 })
