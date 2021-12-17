@@ -5,18 +5,37 @@
 //torno al background del generico con toggle
 
 const button1 = document.querySelector('.level_1');
-const boxContainer = document.querySelector('.box_container');
+const button2 = document.querySelector('.level_2');
+const button3 = document.querySelector('.level_3');
+
+let boxContainer = document.querySelector('.box_container');
+
+function createBox(container) {
+    const box = document.createElement('div');
+    box.className = 'box';
+    container.append(box);
+}
 
 button1.addEventListener('click', function () {
+    boxContainer.innerHTML = '';
 
-    function createBox(container) {
-        const box = document.createElement('div');
-        box.className = 'box';
-        container.append(box);
-    }
-
-    for (let i = 0; i < 100; i++) {
+    for (let i = 1; i < 100; i++) {
         createBox(boxContainer);
     }
+})
 
+button2.addEventListener('click', function () {
+    boxContainer.innerHTML = '';
+
+    for (let i = 1; i < 81; i++) {
+        createBox(boxContainer);
+    }
+})
+
+button3.addEventListener('click', function () {
+    boxContainer.innerHTML = '';
+
+    for (let i = 1; i < 49; i++) {
+        createBox(boxContainer);
+    }
 })

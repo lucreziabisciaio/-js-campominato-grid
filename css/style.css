@@ -36,7 +36,7 @@ button {
     height: 50px;
     width: 50px;
     border: 2px white solid;
-    background-color: #f8d6cd;
+    background-color: #fedcd0;
 
     display: flex;
     align-items: center;
@@ -46,16 +46,16 @@ button {
 /* ------------------------------------------ */
 
 .level_1 {
-    background-color: thistle;
-    box-shadow: 3px 2px rgb(206, 113, 206);
+    background-color: #b2cf6a;
+    box-shadow: 3px 2px #7ea716;
 }
 
 .level_2 {
-    background-color: cornflowerblue;
-    box-shadow: 3px 2px rgb(36, 103, 228);
+    background-color: #ffdf81;
+    box-shadow: 3px 2px rgb(255, 208, 0);
 }
 
 .level_3 {
-    background-color: #fcd9a5;
-    box-shadow: 3px 2px #f5bd6a;
+    background-color: rgb(255, 129, 129);
+    box-shadow: 3px 2px red;
 }
