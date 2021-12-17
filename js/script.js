@@ -10,10 +10,15 @@ const button3 = document.querySelector('.level_3');
 
 let boxContainer = document.querySelector('.box_container');
 
+//funzione che crea i div-box
 function createBox(container) {
     const box = document.createElement('div');
     box.className = 'box';
     container.append(box);
+
+    box.addEventListener('click', function () {
+        this.classList.toggle('blue');
+    });
 }
 
 button1.addEventListener('click', function () {
